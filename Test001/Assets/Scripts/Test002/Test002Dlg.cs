@@ -14,6 +14,7 @@ public class Test002Dlg : MonoBehaviour
     private void Start()
     {
         btn_OK.onClick.AddListener(() => ClickOK());
+        btn_Clear.onClick.AddListener(() => ClickClear());
     }
 
     void ClickOK()

@@ -6,6 +6,9 @@ public class Move : MonoBehaviour
 {
     [SerializeField] float speed;
     [SerializeField] bool isUI;
+
+    //internal int test; // 프로젝트 내에서만 사용가능
+
     private void Update()
     {
         if(isUI == true)
